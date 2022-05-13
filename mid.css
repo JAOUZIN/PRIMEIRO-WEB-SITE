@@ -1,0 +1,41 @@
+body{
+background-image:"Group 2.png"}
+
+.navbar {
+  height: 160px;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.tabela{
+display: flex;
+justify-content: center;
+}
+.navbar-img{
+ height: 160px;
+}
+.navbar-img img{
+  height: 100%;
+  width: 240px;
+}
+.text-navbar{
+ height: 100px;
+}
+.text-navbar a{
+  margin: 0px 30px;
+  text-align: center;
+  color: #ffde59; 
+  text-decoration: none;
+  font-size: 20px;
+  transform: scale(1);
+ 
+}
+.text-navbar:hover{
+  transform: scale(1.15);
+transition: all 0.3s ease;
+}
+
+  

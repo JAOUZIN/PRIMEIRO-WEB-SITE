@@ -1,0 +1,93 @@
+<html>
+<html lang="pt-br">
+<head>
+<body bgcolor="#2C0F66">
+<title> Midway Computer </title>
+<meta charset"utf-8">
+<link rel="stylesheet" type="text/css" href="mid.css" media="screen"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+<body>
+
+<div class="navbar">
+<table class="tabela">
+<tr>
+<th class="text-navbar"><a href="Index1.html" class="navbar-img"><img src="Group 2.png"> </a></th>
+<th class="text-navbar"><a href="index2.html"style="color:yellow">SING-UP</a></th>
+<th class="text-navbar"><a href="index3.html"style="color:yellow">FILTRAR</a></th>
+<th class="text-navbar"><a href="index4.html"style="color:yellow"> QUEM SOMOS? </a></th>
+</tr>
+</table>
+</div>
+
+
+
+<tr>
+
+<tr class="center" rowspan="2"></tr>
+</table>
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="https://images.ctfassets.net/wn7ipiv9ue5v/6ZSV0CNlsw4xhNcCNK4haj/82d0f54cf5010ab9f05a5e5558d3b4f0/RDR2_HeroSquare_1080x1080.jpg" style="width:100%; height:500px;background-size: contain;">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="https://www.showmetech.com.br/wp-content/uploads//2021/09/fifa-22-capa.jpg" style="width:100%;height:500px;background-size: contain;">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="https://s2.glbimg.com/wTEaMW2P-YmMXjJZwOq2xAN4bT4=/0x0:1000x700/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/q/Y/6xgaqVRaump3LrA3f7wA/red-dead-redemption-2-vendas-techtudo.jpg" style="width:100%;height:500px;background-size: contain;">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="https://i0.wp.com/cromossomonerd.com.br/wp-content/uploads/2016/12/Rainbow-Six.jpg?fit=1920%2C1080&ssl=1" style="width:100%;height:500px;background-size: contain;">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="https://staticctf.akamaized.net/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/Bn213V7aySLmjGwfQkSMy/bffebc6e9a19f3524a306d89cbc3b0d4/fc6-page_meta-thumbnail.jpg" style="width:100%;height:500px;background-size: contain;">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="https://viciados.net/wp-content/uploads/2021/08/GTA-5-Wallpaper.jpg" style="width:100%;height:500px;background-size: contain;">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="https://cdn-ext.fanatical.com/production/product/1280x720/a578d037-012f-4cf9-ad35-5908e4eec705.jpeg" style="width:100%;height:500px;background-size: contain;">
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+
+
+
+
+
+</html>

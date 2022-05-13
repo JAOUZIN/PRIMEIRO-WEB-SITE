@@ -1,0 +1,29 @@
+.text-navbar{
+ height: 100px;
+}
+.text-navbar a{
+  margin: 0px 30px;
+  text-align: center;
+  color: #ffde59; 
+  text-decoration: none;
+  font-size: 20px;
+  transform: scale(1);
+ 
+}
+.text-navbar:hover{
+  transform: scale(1.15);
+transition: all 0.3s ease;
+}
+.quemsomos{
+
+border-radius : 1em;
+border: groove 1 em;
+text-align :center;
+color :yellow;
+padding : 6px;
+margin-top: 15px;
+}
+#pato{
+color:yellow;}
+#textin{
+color:yellow;}

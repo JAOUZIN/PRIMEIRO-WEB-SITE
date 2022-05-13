@@ -1,0 +1,88 @@
+<html>
+<html lang="pt-br">
+<head>
+<body bgcolor="#2C0F66">
+<title> Midway Computer </title>
+<meta charset"utf-8">
+<link rel="stylesheet" type="text/css" href="mid3.css" media="screen"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+
+
+<body>
+
+<div class="navbar">
+<table class="tabela">
+<tr>
+<th class="text-navbar"><a href="Index1.html" class="navbar-img"><img src="Group 2.png" style="max-height:150px;> </a></th>
+<th class="text-navbar"><a href="index2.html"style="color:yellow">SING-UP</a></th>
+<th class="text-navbar"><a href="index3.html"style="color:yellow">FILTRAR</a></th>
+<th class="text-navbar"><a href="index4.html"style="color:yellow"> QUEM SOMOS? </a></th>
+</tr>
+</table>
+</div>
+
+<tr>
+
+<tr class="center" rowspan="2"></tr>
+</table>
+
+<div class="w3-content w3-display-container">
+
+<div class="w3-display-container mySlides">
+  <img src="https://www.techreviews.com.br/wp-content/uploads/2021/04/como-montar-um-pc-gamer-0-pexels-john-petalcurin-4317157-scaled.jpg" style="width:100%; height:500px;background-size: contain;">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="https://www.guia55.com.br/wp-content/uploads/2020/02/balkouras-nicos-ncOQxZe8Krw-unsplash-scaled-e1582659548688.jpg" style="width:100%;height:500px;background-size: contain;">
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="https://t2.tudocdn.net/597953?w=646&h=284" style="width:100%;height:500px;background-size: contain;">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="https://pesquiseicomprei.com.br/wp-content/uploads/2021/09/comprar-pc-gamer.jpg" style="width:100%;height:500px;background-size: contain;">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="https://www.gamerinfo.com.br/wp-content/uploads/2021/03/banner-03032021.png" style="width:100%;height:500px;background-size: contain;">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="https://programadoresbrasil.com.br/wp-content/uploads/2020/10/pcgamer.1.jpg" style="width:100%;height:500px;background-size: contain;">
+</div>
+<div class="w3-display-container mySlides">
+  <img src="https://storage.googleapis.com/static.meupc.net/wp/1/2021/12/como-montar-pc-gamer-barato.jpg" style="width:100%;height:500px;background-size: contain;">
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+
+
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+</body>
+
+
+</html>

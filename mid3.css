@@ -1,0 +1,13 @@
+.text-navbar a{
+  margin: 0px 30px;
+  text-align: center;
+  color: #ffde59; 
+  text-decoration: none;
+  font-size: 20px;
+  transform: scale(1);
+ 
+}
+.text-navbar:hover{
+  transform: scale(1.15);
+transition: all 0.3s ease;
+}
